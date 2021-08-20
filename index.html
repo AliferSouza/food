@@ -210,9 +210,9 @@
           " [ "+
           "Total da compra"+
           ": R$"+
-          totalValor +
+          totalValor.toFixed(2)+
           " ] ";
-          window.open("https://wa.me/+5531991792343?text=" + mensagem);
+          window.open("https://api.whatsapp.com/send?phone=5531971685900&text=" + mensagem);
         }else{
           alert("Escola os produtos")
         }
